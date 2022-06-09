@@ -1,0 +1,146 @@
+body {
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title {
+  height: 720px;
+  overflow: hidden;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.dog-img {
+  transform: rotate(25deg);
+  height: 80%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.btn-download {
+  margin: 2rem 1.2rem 0 0;
+}
+
+/* Features icons */
+.feat-box {
+  padding: 4rem;
+}
+#features {
+  margin-top: 4.2rem;
+  text-align: center;
+}
+.icon-feat {
+  font-size: 3.2rem;
+  color: #ef8172;
+  margin-bottom: 0.8rem;
+}
+.icon-feat:hover {
+  color: #ff46c8;
+}
+.feat-h3 {
+  font-family: "Montserrut";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.feat-text {
+  color: #8f8f8f;
+}
+/********* Testimonial Section*********/
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+.test-carousel {
+  padding: 7% 15%;
+}
+.test-img {
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 2rem;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/********Pricing*********/
+#pricing {
+  padding: 100px;
+  text-align: center;
+  /* margin: 7% 7%; */
+}
+
+@media (max-width: 1090px) {
+  #title {
+    text-align: center;
+    height: 100%;
+  }
+  .dog-img {
+    margin-top: 5rem;
+    transform: rotate(0deg);
+  }
+}
+
+/*******Call to action*****/
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 15%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/******Footer******/
+#footer {
+  text-align: center;
+  margin: 5rem 3rem;
+}
+.footer-icon {
+  margin: 14px;
+}
+.footer-text {
+  color: #8f8f8f;
+}
